@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+section .porteria {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: lightseagreen;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section .pelota {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 175px;
+}
+
+section .canon {
+    height: 50px;
+    width: 150px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 175px;
+    left: -50px;
+}
+
+section .score {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: beige;
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section #angulo {
+    left: 5px;
+}
